@@ -42,7 +42,7 @@ The data set is split into the following files:
 
 This project is executed entirely in python and requires the following packages in order to run:
 
-![](images/packages.png)
+![](images/imports.png)
 
 ## Summary
 
