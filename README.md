@@ -19,7 +19,7 @@ Ultimately this solution placed 108th/4000 putting it in the top 3% of solutions
 
 The dataset consists largely of past customer transactions and other tabular features. The data set is available publically at:
 
-https://www.kaggle.com/c/elo-merchant-category-recommendation
+[1] https://www.kaggle.com/c/elo-merchant-category-recommendation
 
 The data set is split into the following files:
 
