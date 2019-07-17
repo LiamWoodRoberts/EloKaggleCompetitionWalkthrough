@@ -46,7 +46,12 @@ This project is executed entirely in python and requires the following packages 
 
 ## Summary
 
-A major theme of this project was determing an effective method for dealing with outliers. Looking at the target distribution it can be observed that some values were well outside of the expected distribution.
+The most effective method for improving model predictions was to add aggregate features from the  **historical_transactions.csv** and **new_merchant_transactions.csv** files. Things like knowing the average month a customers purchases were centered around, when the customer made their first purchase, and how many times customers made the same purchases were all very useful for making effective predictions.
+
+![](images/feature_importance.png)
+
+
+Another major theme of this project was determing an effective method for dealing with outliers. Looking at the target distribution it can be observed that some values were well outside of the expected distribution.
 
 ![](images/outliers_hist.png)
 
