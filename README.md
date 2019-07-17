@@ -46,10 +46,9 @@ This project is executed entirely in python and requires the following packages 
 
 ## Summary
 
-The most effective method for improving model predictions was to add aggregate features from the  **historical_transactions.csv** and **new_merchant_transactions.csv** files. Things like knowing the average month a customers purchases were centered around, when the customer made their first purchase, and how many times customers made the same purchases were all very useful for making effective predictions.
+The most effective method for improving model predictions was to add aggregate features from the  **historical_transactions.csv** and **new_merchant_transactions.csv** files. Things like knowing the average month a customers purchases were centered around, when the customer made their first purchase, and how many times customers made the same purchases were all very useful for making effective predictions. Below is a full list of features as well as their corresponding feature importance (gain importance) from the best single model (a LightGBM).
 
 ![](images/feature_importance.png)
-
 
 Another major theme of this project was determing an effective method for dealing with outliers. Looking at the target distribution it can be observed that some values were well outside of the expected distribution.
 
@@ -60,6 +59,8 @@ These outliers made up a tiny proportion of the data set but because the competi
 ![](images/outliers_loss.png)
 
 Models were therefor created to identify these outliers and utilized in the final ensembles.
+
+The most effective models for this task were found to be gradient boosted trees. Specifically LightGBM performed better than XGboost or conventional boosting. The final model was an ensemble of LightGBMs trained at varying depths with some trained to predict target values and others trained to predict outliers.
 
 ## Results
 
