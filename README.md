@@ -6,14 +6,13 @@ In this competition, Kagglers will develop algorithms to identify and serve the 
 
 This repo covers the entire pipeline of my solution to the ELO Merchant Category Recommendation challenge hosted by ELO on kaggle. The solution is split into five parts:
 
-1. Exploritory Data Analysis
-2. Data Preprocessing
-3. Feature Engineering
-4. Feature Selection
-5. Final Model(s)
+**1. Exploritory Data Analysis**
+**2. Data Preprocessing**
+**3. Feature Engineering**
+**4. Feature Selection**
+**5. Final Model(s)**
 
 Ultimately this solution placed 108th/4000 putting it in the top 3% of solutions.
-
 
 ## Dataset
 
@@ -36,7 +35,6 @@ The data set is split into the following files:
 **new_merchant_transactions.csv**: ~20mb of data for two months worth of purchases made at merchant_ids that were not visited in the historical dataset (same features as historical_transactions.csv)
 
 ![](images/hist_trans_head.png)
-
 
 ## Packages
 
