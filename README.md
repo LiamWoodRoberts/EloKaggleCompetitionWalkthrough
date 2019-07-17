@@ -24,10 +24,10 @@ https://www.kaggle.com/c/elo-merchant-category-recommendation
 The data set is split into the following files:
 
 **train.csv**: Tabular features and loyalty scores for a set of card_ids.
+![](images/train_head.png)
 
 **test.csv**: Same as test without loyalty scores for different card_ids.
-
-![](images/train_test_head.png)
+![](images/test_head.png)
 
 **historical_transactions.csv**: ~1GB of past customer transactions with at least three months of data for every cardid in the data set.
 
