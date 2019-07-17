@@ -52,11 +52,11 @@ The most effective method for improving model predictions was to add aggregate f
 
 Another major theme of this project was determing an effective method for dealing with outliers. Looking at the target distribution it can be observed that some values were well outside of the expected distribution.
 
-![](images/outliers_hist.png)
+![](images/outliers_hist2.png)
 
 These outliers made up a tiny proportion of the data set but because the competition was evaluated using a mean squared error they made up a significant portion of the total loss for each model. 
 
-![](images/outliers_loss.png)
+![](images/outliers_loss2.png)
 
 Models were therefor created to identify these outliers and utilized in the final ensembles.
 
